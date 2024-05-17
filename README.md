@@ -37,32 +37,24 @@ GND => GND
 
 As DC motors I choose ... model. The DC motors on the left should be parallel connected as well as the motors on the right. The reason is we want to control 2 motors with the same power signals. That's how they are gonna work in synchron.
 
-MOTOR-A+ ----+---- Motor A1 Positive Terminal
-
-             |
-
-             +---- Motor A2 Positive Terminal
+MOTOR-A+ => Motor A1 Positive Terminal 
+        
+         => Motor A2 Positive Terminal
 
              
-MOTOR-A- ----+---- Motor A1 Negative Terminal
-
-             |
-
-             +---- Motor A2 Negative Terminal
+MOTOR-A- => Motor A1 Negative Terminal
+         
+         => Motor A2 Negative Terminal
              
 
-MOTOR-B+ ----+---- Motor B1 Positive Terminal
+MOTOR-B+ => Motor B1 Positive Terminal 
+        
+         => Motor B2 Positive Terminal
 
-             |
              
-             +---- Motor B2 Positive Terminal
-             
-
-MOTOR-B- ----+---- Motor B1 Negative Terminal
-
-             |
-             
-             +---- Motor B2 Negative Terminal
+MOTOR-B- => Motor B1 Negative Terminal
+         
+         => Motor B2 Negative Terminal
              
 
 
