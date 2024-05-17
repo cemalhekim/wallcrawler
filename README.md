@@ -15,34 +15,55 @@ The power supply for this module is a 7.4 Volt 2 Cells LiPo battery.
 
 The wire connections between LiPo and MX1919 are:
 
+
 VDD => +
+
 GND => -
+
 
 The wire connections between raspberry pi 4 and MX1919 are:
 
+
 IN1 => GPIO 17
+
 IN2 => GPIO 27
+
 IN3 => GPIO 22
+
 IN4 => GPIO 23
+
 GND => GND
+
 
 As DC motors I choose ... model. The DC motors on the left should be parallel connected as well as the motors on the right. The reason is we want to control 2 motors with the same power signals. That's how they are gonna work in synchron.
 
 MOTOR-A+ ----+---- Motor A1 Positive Terminal
+
              |
+
              +---- Motor A2 Positive Terminal
+
              
 MOTOR-A- ----+---- Motor A1 Negative Terminal
+
              |
+
              +---- Motor A2 Negative Terminal
+             
 
 MOTOR-B+ ----+---- Motor B1 Positive Terminal
+
              |
+             
              +---- Motor B2 Positive Terminal
+             
 
 MOTOR-B- ----+---- Motor B1 Negative Terminal
+
              |
+             
              +---- Motor B2 Negative Terminal
+             
 
 
 
