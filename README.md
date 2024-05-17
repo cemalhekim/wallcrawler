@@ -6,3 +6,4 @@ The brain of the robot is Raspberry Pi 4.
 
 Robot will have 4 DC Motor powered wheels. Every 2 motors are connected in parallel. That's why we only need 1 motor driver which can control 2 motors. As the motor driver MX1919 DC Dual Motor Driver is in use. 
 
+![image](https://github.com/cemalhekim/wallcrawler/assets/98236326/d29daeac-bd34-42cf-87e3-cae727282469)
