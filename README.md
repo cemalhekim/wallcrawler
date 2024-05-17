@@ -39,5 +39,11 @@ As DC motors I choose ... model. The DC motors on the left should be parallel co
 
 
 
+To understand how big of a normal force against the wall we need, I wrote a Matlab code named crawlability.m that helps you to find neccesseary generated force from the fan. 
+
+https://github.com/cemalhekim/wallcrawler/blob/main/calculations/crawlability.m
+
+
+
 
 
